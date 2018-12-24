@@ -14,6 +14,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <!-- Styles -->
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <!--Favicon -->
     <link rel="icon" href="./favicon.ico">
 
@@ -22,5 +23,7 @@
 <div id="app" class="container">
     @yield('content')
 </div>
+<script src="{{ mix('js/app.js') }}"></script>
+@yield('script')
 </body>
 </html>

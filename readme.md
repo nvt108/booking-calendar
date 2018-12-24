@@ -6,7 +6,8 @@
 4. Run `npm install`
 6. Run `php artisan key:generate`
 7. Run `php artisan migrate`
-8. If you want to add demo data in the DB run `php artisan db:seed`
+8. Run `npm install -g yarn`
+9. If you want to add demo data in the DB run `php artisan db:seed`
 
 ### Development
 
